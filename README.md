@@ -31,15 +31,15 @@ Team Export - Download your final roster as a CSV for easy reference or sharing.
 
 2. Configure your draft:
 • Enter your OpenAI API key in the sidebar
-• Set league details (e.g. number of teams, draft slot, scoring format)
-• Optionally place a custom player rankings CSV into the data_players/ folder
+• 	Set league details (e.g. number of teams, draft slot, scoring format)
+• 	Optionally place a custom player rankings CSV into the data_players/ folder
 3.During the draft:
-• Enter each pick in the Draft Board tab
-• When it’s your turn, head to Recommendations and click “Get Recommendations”
-• Review AI insights and select your next player
+• 	Enter each pick in the Draft Board tab
+• 	When it’s your turn, head to Recommendations and click “Get Recommendations”
+• 	Review AI insights and select your next player
 4. Track your progress:
-• Monitor your team under the My Team tab
-• Review draft trends and positional runs in the Analysis tab
+• 	Monitor your team under the My Team tab
+• 	Review draft trends and positional runs in the Analysis tab
 
 
 ## Project Structure
@@ -57,23 +57,23 @@ Team Export - Download your final roster as a CSV for easy reference or sharing.
 
 DraftAgent
 The core LangGraph-powered agent that:
-• Analyzes live draft status and team needs
-• Provides high-value player recommendations
-• Dynamically adapts strategy
+• 	Analyzes live draft status and team needs
+• 	Provides high-value player recommendations
+• 	Dynamically adapts strategy
 
 ## FantasyDataManager
 
 Manages fantasy player data:
-• Loads and parses ranking CSVs
-• Computes VBD and tiered rankings
-• Ensures flexibility between mock and real data
+• 	Loads and parses ranking CSVs
+• 	Computes VBD and tiered rankings
+• 	Ensures flexibility between mock and real data
 
 ## Streamlit Interface
 
 User-friendly frontend for:
-• Pick input and draft board view
-• AI-driven suggestions and reasoning
-• Team and trend analysis
+• 	Pick input and draft board view
+• 	AI-driven suggestions and reasoning
+• 	Team and trend analysis
  
 Draft Strategies Included
 •	Rookie Upside – Target 2024 rookies with breakout potential
@@ -85,17 +85,17 @@ Draft Strategies Included
 ## Data Sources
 
 Supports:
-• Custom player rankings via CSV (/data_players/)
-• Preloaded 2025 rankings (mock)
-• Real-time projections and position trends via AI
+• 	Custom player rankings via CSV (/data_players/)
+• 	Preloaded 2025 rankings (mock)
+• 	Real-time projections and position trends via AI
 
 ## Requirements
-• Python 3.11+
-• OpenAI API key
-• Streamlit
-• LangChain / LangGraph
-• Pandas, NumPy
-• FAISS
+• 	Python 3.11+
+• 	OpenAI API key
+• 	Streamlit
+• 	LangChain / LangGraph
+• 	Pandas, NumPy
+• 	FAISS
 
 ## Contributing
 1.	Fork the repository
