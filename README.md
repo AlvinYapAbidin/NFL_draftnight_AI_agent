@@ -1,7 +1,3 @@
-Here’s your cleaned-up README with all emojis removed and professional formatting retained:
-
-⸻
-
 Fantasy Football Draft Assistant
 
 An AI-powered assistant that delivers real-time draft recommendations and analysis to help you dominate your fantasy football draft. Built with LangGraph and Streamlit, this tool works seamlessly without requiring Yahoo or ESPN API access — simply input picks manually and let AI guide your strategy.
