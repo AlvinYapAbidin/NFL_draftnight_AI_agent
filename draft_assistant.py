@@ -236,7 +236,7 @@ class FantasyDataManager:
             ("Brian Thomas Jr.", "WR", "JAC", 5, 320),    # 21.5 PPG final 7 games, elite finish
             ("Amon-Ra St. Brown", "WR", "DET", 6, 315),   # Safest floor in fantasy
             ("Puka Nacua", "WR", "LAR", 7, 310),          # 3.56 yards per route run, most efficient
-            ("Nico Collins", "WR", "HOU", 8, 305),        # Your keeper! Top-3 in YPRR, Diggs gone
+            ("Nico Collins", "WR", "HOU", 8, 305),        # Top-3 in YPRR, Diggs gone
             ("A.J. Brown", "WR", "PHI", 9, 300),          # Elite when healthy, TD upside
             ("Drake London", "WR", "ATL", 10, 295),       # Breakout candidate with improved offense
             ("Ladd McConkey", "WR", "LAC", 11, 290),      # Herbert's top target, 100+ catch upside
