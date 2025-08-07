@@ -85,17 +85,17 @@ Draft Strategies Included
 ## Data Sources
 
 Supports:
-•	Custom player rankings via CSV (/data_players/)
-•	Preloaded 2025 rankings (mock)
-•	Real-time projections and position trends via AI
+• Custom player rankings via CSV (/data_players/)
+• Preloaded 2025 rankings (mock)
+• Real-time projections and position trends via AI
 
 ## Requirements
-•	Python 3.11+
-•	OpenAI API key
-•	Streamlit
-•	LangChain / LangGraph
-•	Pandas, NumPy
-•	FAISS
+• Python 3.11+
+• OpenAI API key
+• Streamlit
+• LangChain / LangGraph
+• Pandas, NumPy
+• FAISS
 
 ## Contributing
 1.	Fork the repository
