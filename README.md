@@ -26,3 +26,61 @@ Built with **LangGraph** + **Streamlit**, this bad boy works *without* Yahoo or 
    ```bash
    git clone <repository-url>
    cd Fantasy_Football_Agent
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Get your **OpenAI API key** — without it, your AI GM stays on the bench.
+
+---
+
+## Usage (Game Day Mode)
+
+1. Run the app:
+   ```bash
+   streamlit run draft_assistant.py
+   ```
+
+2. Set up your league:
+   - Enter your OpenAI API key in the sidebar  
+   - Fill in league details (teams, draft slot, scoring format)  
+   - Want custom player rankings? Drop your CSV into `data_players/`
+
+3. Draft like a boss:
+   - Log every pick in the **Draft Board** tab  
+   - When it’s your turn, smash **Get Recommendations**  
+   - Let AI serve you the winning move
+
+4. Flex during and after:
+   - **My Team tab**: See your roster rise to glory  
+   - **Analysis tab**: Watch position trends like a Wall Street day trader
+
+---
+
+## Project Structure (Locker Room Tour)
+
+```
+Fantasy_Football_Agent/
+├── draft_assistant.py       # Main Streamlit app
+├── requirements.txt         # Playbook
+├── pyproject.toml           # Team metadata
+├── data_players/            # Player ranking CSVs
+│   └── FantasyPros-expert-rankings.csv
+└── README.md                # This hype-filled file
+```
+
+---
+
+## Key Components
+
+### DraftAgent (The Head Coach)
+- Reads the field, calls the plays, makes you look like a genius.
+
+### FantasyDataManager (The Scout)
+- Brings in rankings, calculates VBD, spots value gems.
+
+### Streamlit Interface (The Stadium)
+- Keeps the fans (you) informed, engaged, and in control.
