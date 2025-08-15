@@ -4,7 +4,7 @@ HERE WE GO, THE NFL SEASON IS BACK BABY 🏈🔥
 Your mission: **absolutely dominate** your fantasy football draft.  
 Your weapon: an AI-powered assistant that thinks faster than your rival who reads mock drafts in the bathroom.  
 
-Built with **LangGraph** + **Streamlit**, this bad boy works *without* Yahoo or ESPN API access — just plug in your picks manually, and watch AI craft your championship roster.
+Built with **LangGraph** + **Streamlit**, this bad boy works *without* Yahoo or ESPN API access. Plug in your picks manually, and watch AI craft your championship roster.
 
 ---
 
