@@ -24,7 +24,7 @@ Built with **LangGraph** + **Streamlit**, this bad boy works *without* Yahoo or 
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AlvinYapAbidin/NFL_draftnight_AI_agent
    cd Fantasy_Football_Agent
    ```
 
